@@ -1,6 +1,6 @@
 # Purnendu Roy — Personal Portfolio
 
-A personal portfolio website showcasing my background, technical skills, selected projects, education, and resume.
+A personal portfolio showcasing my background, Java full-stack learning journey, technical skills, selected projects, education, and resume.
 
 🌐 **Live Portfolio:** [purnendu-portfolio-mu.vercel.app](https://purnendu-portfolio-mu.vercel.app/)
 
@@ -10,12 +10,12 @@ A personal portfolio website showcasing my background, technical skills, selecte
 
 ## About
 
-This portfolio presents my work and interests in data analysis, business intelligence, and web development. It is designed as a responsive, single-page experience with a minimal editorial visual style.
+This portfolio presents my background and developing focus as an aspiring Java Full Stack Developer. It is a responsive, single-page website with a minimal editorial visual style.
 
 ## Highlights
 
 - Personal introduction and professional profile
-- Skills grouped by programming, data analysis, visualization, web development, and databases
+- Skills across Java fundamentals, object-oriented programming, web development, SQL, and development tools
 - Selected project summaries
 - Education and academic background
 - Embedded resume preview with PDF open/download links
@@ -23,6 +23,13 @@ This portfolio presents my work and interests in data analysis, business intelli
 - Light/dark theme toggle
 - Responsive navigation and mobile menu
 - Interactive page details and motion effects
+
+## Current Learning Focus
+
+- Java fundamentals and object-oriented programming
+- SQL and MySQL database fundamentals
+- HTML, CSS, and JavaScript
+- Git, GitHub, and project-based development
 
 ## Featured Projects
 
@@ -83,6 +90,7 @@ The PDF resume is available at [portfolio/assets/purnendu-roy-resume.pdf](portfo
 - **Email:** [purnenduroy154@gmail.com](mailto:purnenduroy154@gmail.com)
 - **Portfolio:** [purnendu-portfolio-mu.vercel.app](https://purnendu-portfolio-mu.vercel.app/)
 - **GitHub:** [@purnendu2318](https://github.com/purnendu2318)
+- **LinkedIn:** [Purnendu Roy](https://www.linkedin.com/in/purnendu-roy-591000314/)
 
 ## License
 
