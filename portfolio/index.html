@@ -130,15 +130,13 @@ h2.s-title{font-family:'Playfair Display',serif;font-size:clamp(2.5rem,5vw,4.5re
 .sk-heading{font-family:'Playfair Display',serif;font-size:clamp(3rem,7vw,7rem);font-weight:900;font-style:italic;color:var(--bg);letter-spacing:-.04em;line-height:.9;transition:color .4s}
 .sk-desc{max-width:260px;color:rgba(245,240,232,.35);font-size:.88rem;font-weight:300;line-height:1.7;align-self:flex-end}
 .sk-rows{border-top:1px solid rgba(245,240,232,.08)}
-.sk-row{display:grid;grid-template-columns:56px 180px 1fr 130px;align-items:center;gap:36px;padding:22px 0;border-bottom:1px solid rgba(245,240,232,.08);transition:all .3s;cursor:default}
+.sk-row{display:grid;grid-template-columns:56px 180px minmax(0,1fr);align-items:center;gap:36px;padding:22px 0;border-bottom:1px solid rgba(245,240,232,.08);transition:all .3s;cursor:default}
 .sk-row:hover{padding-left:10px;background:rgba(245,240,232,.015)}
 .sk-i{font-size:.7rem;color:rgba(245,240,232,.18);letter-spacing:.1em}
 .sk-n{font-size:.92rem;color:rgba(245,240,232,.65);font-weight:300}
 .sk-tags{display:flex;flex-wrap:wrap;gap:5px}
 .s-t{font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;color:rgba(245,240,232,.3);border:1px solid rgba(245,240,232,.1);padding:3px 10px;border-radius:1px;transition:.3s}
 .sk-row:hover .s-t{border-color:rgba(200,169,110,.3);color:var(--accent)}
-.sk-bar-wrap{height:1px;background:rgba(245,240,232,.1);width:100%}
-.sk-bar{height:1px;background:var(--accent);width:0;transition:width 1.2s cubic-bezier(.16,1,.3,1)}
 
 /* PROJECTS */
 #projects{background:var(--white)}
@@ -710,15 +708,6 @@ if('IntersectionObserver'in window){
   revealEls.forEach(el=>obs.observe(el));
 }else{
   revealEls.forEach(el=>el.classList.add('in'));
-}
-
-/* -- SKILL BARS -- */
-const skillBars=document.querySelectorAll('.sk-bar');
-if('IntersectionObserver'in window){
-  const bo=new IntersectionObserver(els=>{els.forEach(e=>{if(e.isIntersecting)e.target.style.width=e.target.getAttribute('data-w')+'%'})},{threshold:.4});
-  skillBars.forEach(b=>{b.style.width='0';bo.observe(b)});
-}else{
-  skillBars.forEach(b=>{b.style.width=b.getAttribute('data-w')+'%'});
 }
 
 /* -- NAV ACTIVE -- */
